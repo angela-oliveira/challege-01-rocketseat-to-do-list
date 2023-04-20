@@ -1,0 +1,41 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    border-radius: 8px;
+    padding: 16px;
+    gap: 12px;
+}
+.textCheck {
+    font-size: 14px;
+    color: var(--gray-100);
+    line-height: 140%;
+    flex: 1;
+}
+
+.iconCheck {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.textChecked {
+    font-size: 14px;
+    color: var(--gray-300);
+    text-decoration-line: line-through;
+    line-height: 140%;
+    flex: 1;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    color: var(--gray-400);
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 2px;
+}
+.task button:hover {
+  color: var(--Danger);
+  transition: color 0.2s;
+}

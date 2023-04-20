@@ -1,0 +1,22 @@
+.main {
+    height: 244px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.main div {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+.firstText {
+    font-weight: 700;
+}

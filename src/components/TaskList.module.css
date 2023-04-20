@@ -1,0 +1,115 @@
+.wrapper {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    max-width: 46rem;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.infoTasks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.createdTask {
+    display: flex;
+    align-items: center;
+}
+.createdTask > .text {
+   color: var(--blue); 
+   font-weight: 700;
+   font-size: 14px;
+}
+.countTask {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 999px;
+    padding: 2px 8px;
+    margin-left: 0.5rem;
+    font-size: 12px;
+}
+.completedTask {
+    display: flex;
+    align-items: center;
+}
+.completedTask > .text {
+   color: var(--purple); 
+   font-weight: 700;
+   font-size: 14px;
+}
+.tasks {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    border-radius: 8px;
+    padding: 16px;
+    gap: 12px;
+}
+.textCheck {
+    font-size: 14px;
+    color: var(--gray-100);
+    line-height: 140%;
+}
+.iconCheck {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.textChecked {
+    color: var(--gray-300);
+    text-decoration-line: line-through;
+}.contentForm {
+    width: 100%;
+    margin-top: -27px;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.inputForm {
+    height: 54px;
+    width: 638px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    color: var(--gray-100)
+}
+.buttonForm {
+    background: var(--blueDark);
+    color: var(--gray-100);
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.buttonForm:not(:disabled):hover {
+    background: var(--blue);
+}
+.buttonForm:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
